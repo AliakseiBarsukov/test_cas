@@ -170,7 +170,7 @@ main {
 
 .container {
   padding: 0 15px;
-  max-width: 1200px;
+  max-width: 1210px;
   margin: 0 auto;
 }
 
@@ -417,7 +417,7 @@ li {
 .burger__btn {
   display: none;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1210px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,7 +486,7 @@ li {
 
 .nav {
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1210px) {
     position: absolute;
     background: rgb(42, 42, 42);
     padding: 40px;
@@ -518,7 +518,7 @@ li {
   justify-content: center;
 
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1210px) {
   display: flex;
   justify-content: start;
   flex-wrap: nowrap;
