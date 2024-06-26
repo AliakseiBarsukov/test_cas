@@ -417,7 +417,7 @@ li {
 .burger__btn {
   display: none;
 
-  @media (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,7 +486,7 @@ li {
 
 .nav {
 
-  @media (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     position: absolute;
     background: rgb(42, 42, 42);
     padding: 40px;
@@ -518,7 +518,7 @@ li {
   justify-content: center;
 
 
-  @media (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
   display: flex;
   justify-content: start;
   flex-wrap: nowrap;
@@ -539,7 +539,6 @@ li {
 /* nav__active */
 .nav__active {
   display: flex;
-  /* width: 100%; */
   justify-content: center;
   visibility: visible;
   opacity: 1;
@@ -579,7 +578,6 @@ li {
 .footer__item {
   max-width: 300px;
 }
-
 
 .active {
   color: yellow !important;
@@ -634,8 +632,6 @@ li {
 .center {
   margin: 0 auto;
 }
-
-
 
 .btn__wrapp {
   display: flex;
